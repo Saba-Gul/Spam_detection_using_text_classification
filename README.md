@@ -2,6 +2,8 @@
 
 This project implements text classification techniques to detect spam messages using Natural Language Processing (NLP) methods. It includes preprocessing steps, model training, evaluation, and performance analysis.
 
+![Sample Image](images/wordcloud.png)
+
 ## Table of Contents
 
 - [Overview](#overview)
