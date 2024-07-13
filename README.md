@@ -22,7 +22,8 @@ This project aims to build a machine learning model that can classify text messa
 
 ## Dataset
 
-The dataset used in this project consists of text messages labeled as spam or ham. It is preprocessed to remove noise and irrelevant information before model training.
+The SMS Spam Collection is a set of SMS tagged messages that have been collected for SMS Spam research. It contains one set of SMS messages in English of 5,574 messages, tagged acording being ham (legitimate) or spam. [Link to Dataset on Kaggle]([https://www.kaggle.com/datasetname](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset))
+
 
 ## Preprocessing
 
