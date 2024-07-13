@@ -31,10 +31,19 @@ Text preprocessing steps include:
 
 - Lowercasing
 - Punctuation removal
-- Stopword removal
-- Tokenization
-- Stemming
-- N-grams vectorization (unigrams, bigrams, trigrams)
+- Stopword removal: Common stop words are removed to reduce noise in the data.
+- Stemming: Reduces words to their base or root form by removing suffixes (e.g., "running" becomes "run").
+- Lemmatization: Reduces words to their base or dictionary form, considering the context (e.g., "better" becomes "good").
+- Tokenization: : Splits text into individual words or tokens (e.g., "The cat sat on the mat" becomes ["The", "cat", "sat", "on", "the", "mat"]).
+- N-grams vectorization (unigrams, bigrams, trigrams): N-grams refer to contiguous sequences of N items from a given text. In the context of text vectorization:
+
+  - Unigrams: These are single words. For example, the sentence "I love machine learning" would yield unigrams: "I", "love", "machine", "learning".
+
+  - Bigrams: These consist of pairs of adjacent words. From the same sentence, bigrams would be: "I love", "love machine", "machine learning".
+
+  - Trigrams: These are sequences of three adjacent words. For instance, trigrams from the sentence would include: "I love machine", "love machine learning".
+    
+    N-grams capture sequential word information directly from text and is often used in tasks where word sequence matters, such as language modeling, sentiment analysis, and machine translation.
 
 ## Models Used
 
