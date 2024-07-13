@@ -29,13 +29,13 @@ The SMS Spam Collection is a set of SMS tagged messages that have been collected
 
 Text preprocessing steps include:
 
-- Lowercasing
-- Punctuation removal
-- Stopword removal: Common stop words are removed to reduce noise in the data.
-- Stemming: Reduces words to their base or root form by removing suffixes (e.g., "running" becomes "run").
-- Lemmatization: Reduces words to their base or dictionary form, considering the context (e.g., "better" becomes "good").
-- Tokenization: : Splits text into individual words or tokens (e.g., "The cat sat on the mat" becomes ["The", "cat", "sat", "on", "the", "mat"]).
-- N-grams vectorization (unigrams, bigrams, trigrams): N-grams refer to contiguous sequences of N items from a given text. In the context of text vectorization:
+- **Lowercasing**
+- **Punctuation removal**
+- **Stopword removal:** Common stop words are removed to reduce noise in the data.
+- **Stemming:** Reduces words to their base or root form by removing suffixes (e.g., "running" becomes "run").
+- **Lemmatization:** Reduces words to their base or dictionary form, considering the context (e.g., "better" becomes "good").
+- **Tokenization:** Splits text into individual words or tokens (e.g., "The cat sat on the mat" becomes ["The", "cat", "sat", "on", "the", "mat"]).
+- **N-grams vectorization (unigrams, bigrams, trigrams):** N-grams refer to contiguous sequences of N items from a given text. In the context of text vectorization:
 
   - Unigrams: These are single words. For example, the sentence "I love machine learning" would yield unigrams: "I", "love", "machine", "learning".
 
